@@ -1,0 +1,9 @@
+tomli>=2.0.0
+
+[dev]
+pytest
+flake8
+
+[docs]
+sphinx
+sphinx_rtd_theme
