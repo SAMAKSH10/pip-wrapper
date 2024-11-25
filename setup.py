@@ -8,8 +8,8 @@ except FileNotFoundError:
     long_description = "A custom pip wrapper to manage dependencies and update pyproject.toml."
 
 setup(
-    name="pip-wrapper",
-    version="0.1.0",
+    name="pip-wrapper-class",
+    version="0.2.1",  # Incremented the version for the adjusted script
     description="A custom pip wrapper to manage dependencies and update pyproject.toml.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -24,11 +24,14 @@ setup(
         ]
     },
     install_requires=[
-        "toml>=0.10.0",  # TOML support for pyproject
+        "toml>=0.10.0",        # TOML support for pyproject
+        "watchdog>=2.1.0",     # Required for filesystem monitoring
+        "setuptools>=42",      # Required for building wheels
+        "wheel>=0.36.2",       # Needed to handle Python wheel packaging
     ],
     extras_require={
-        "dev": ["pytest", "flake8"],
-        "docs": ["sphinx", "sphinx_rtd_theme"],
+        "dev": ["pytest", "flake8"],  # Development dependencies
+        "docs": ["sphinx", "sphinx_rtd_theme"],  # Documentation dependencies
     },
     setup_requires=["wheel", "setuptools"],
     tests_require=["pytest"],

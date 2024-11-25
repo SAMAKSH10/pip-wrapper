@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: pip-wrapper
-Version: 0.1.0
+Name: pip-wrapper-class
+Version: 0.2.0
 Summary: A custom pip wrapper to manage dependencies and update pyproject.toml.
 Home-page: https://github.com/SAMAKSH10/pip-wrapper.git
 Author: Samaksh
@@ -22,7 +22,7 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: tomli>=2.0.0
+Requires-Dist: toml>=0.10.0
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: flake8; extra == "dev"
