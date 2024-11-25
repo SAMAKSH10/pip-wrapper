@@ -1,0 +1,2 @@
+[console_scripts]
+pip-wrapper = pip_wrapper.cli:main
