@@ -64,8 +64,8 @@ Clear all dependencies from the pyproject.toml file.
 ------------------------------------------------------------------
 
 
-Why Use `pip-wrapper`?
+## Why Use `pip-wrapper`?
 
--Simplifies dependency management.
--Avoids manual updates to the `pyproject.toml` file.
--Ensures your dependencies are always in sync with your environment.
+-**Simplifies dependency management**.
+-**Avoids manual updates to the `pyproject.toml` file**.
+-**Ensures your dependencies are always in sync with your environment**.
