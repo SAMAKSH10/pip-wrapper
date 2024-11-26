@@ -47,25 +47,25 @@ Clear all dependencies from the pyproject.toml file.
 
 1. Start by creating a pyproject.toml file in your project directory:
 
-**pip-wrapper create**
+`pip-wrapper create`
 
 2. Monitor changes in your virtual environment to keep your pyproject.toml updated:
 
-**pip-wrapper monitor**
+`pip-wrapper monitor`
 
 3. Install dependencies from your pyproject.toml in a new environment:
 
-**pip-wrapper install**
+`pip-wrapper install`
 
 4. Clear dependencies if needed:
 
-**pip-wrapper clear**
+`pip-wrapper clear`
 
 ------------------------------------------------------------------
 
 
 Why Use `pip-wrapper`?
 
-Simplifies dependency management.
-Avoids manual updates to the `pyproject.toml` file.
-Ensures your dependencies are always in sync with your environment.
+-Simplifies dependency management.
+-Avoids manual updates to the `pyproject.toml` file.
+-Ensures your dependencies are always in sync with your environment.
